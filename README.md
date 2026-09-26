@@ -1,67 +1,65 @@
-# Deen Clothing Website
+# Deen Clothing 🌿
 
-A responsive boutique/shopping-style website for Deen Clothing.
+**Modern elegance meets timeless modesty.** 
 
-## Included features
-- Responsive mobile/desktop design
-- Product catalogue with categories
-- Add-to-bag shopping interaction
-- Estimated cart total
-- One-click WhatsApp order message
-- Phone call button
-- Google Maps directions button
-- Clothing picture gallery
-- About and contact sections
-- No backend required; works as a static website
+Deen Clothing is a curated clothing boutique dedicated to providing high-quality, stylish, and comfortable modest wear. Our designs blend contemporary fashion trends with traditional values, offering effortless style for every occasion.
 
-## How to add Deen Clothing's real details
+---
 
-Open `script.js`.
+## 🛍️ Our Collections
 
-Find:
+- **Everyday Essentials:** Breathable, durable, and comfortable casual wear for daily life.
+- **Formal & Occasion:** Elegant dresses, abayas, suits, and ensembles crafted for special events.
+- **Seasonal Lines:** Limited-edition seasonal releases featuring tailored outerwear, summer linens, and layering pieces.
+- **Accessories:** Premium scarves, hijabs, belts, and understated jewelry to complete your look.
 
-```js
-const BUSINESS = {
-  whatsapp: "2348000000000",
-  phone: "+234 800 000 0000",
-  address: "Deen Clothing, Yola, Adamawa, Nigeria",
-  mapsQuery: "Deen Clothing, Yola, Adamawa, Nigeria"
-};
-```
+---
 
-Replace those values with the real WhatsApp number, phone number and location.
+## 🧵 Quality & Materials
 
-IMPORTANT: The WhatsApp value should contain digits only after the Nigeria country code. Example:
-`2348012345678`
+We prioritize ethical sourcing and premium fabrics to ensure long-lasting quality:
+- **Fabrics:** 100% Organic Cotton, Natural Linen, Chiffon, Premium Crepe, and Silk Blends.
+- **Craftsmanship:** Reinforced stitching, pre-shrunk fabrics, and tailored fits designed for comfort and durability.
+- **Ethical Production:** Small-batch manufacturing to minimize waste and ensure fair labor standards.
 
-## How to add clothing photos
+---
 
-1. Put your JPG/PNG/WebP photos inside the `assets` folder.
-2. In `script.js`, change a product's `image` value.
+## 📏 Sizing Guide
 
-Example:
+To ensure the best fit, please refer to our standard measurements before placing an order:
 
-```js
-image:"assets/black-dress.jpg"
-```
+| Size | Bust (in) | Waist (in) | Hips (in) | Length (in) |
+| :--- | :--- | :--- | :--- | :--- |
+| **S** | 32–34 | 26–28 | 36–38 | 54 |
+| **M** | 36–38 | 30–32 | 40–42 | 56 |
+| **L** | 40–42 | 34–36 | 44–46 | 58 |
+| **XL** | 44–46 | 38–40 | 48–50 | 60 |
 
-For the gallery, use the same method:
+*Custom tailoring options are available upon request for select formal wear.*
 
-```js
-{title:"New arrivals", image:"assets/new-arrivals.jpg"}
-```
+---
 
-## Edit prices/products
+## 🚚 Shipping & Delivery
 
-All products are near the top of `script.js` in the `products` array. You can change:
-- name
-- category
-- price
-- image
-- badge
+- **Processing Time:** Orders are processed within 1–3 business days.
+- **Domestic Shipping:** Standard (3–5 business days) & Express (1–2 business days).
+- **International Shipping:** Worldwide shipping available via DHL/FedEx (5–10 business days).
+- **Tracking:** Every order includes a tracking number sent via email/SMS upon dispatch.
 
-## Deploying
+---
 
-This is a static website, so it can be deployed on GitHub Pages, Netlify, Cloudflare Pages, or another static hosting service.
+## 🔄 Exchange & Return Policy
 
-The website does not process online card payments. Orders are sent to WhatsApp, where Deen Clothing can confirm availability, size, colour, delivery and payment.
+We want you to love your purchases. If you are not completely satisfied:
+1. **Window:** Returns and exchanges are accepted within **14 days** of delivery.
+2. **Condition:** Items must be unworn, unwashed, and in original packaging with tags attached.
+3. **Process:** Contact our support team with your order number to initiate a return label.
+
+---
+
+## 📩 Connect With Us
+
+- **Website:** [www.deenclothing.com](https://www.deenclothing.com)
+- **Instagram:** [@deenclothing](#)
+- **Customer Support:** support@deenclothing.com
+- **Store Location:** 123 Fashion Boulevard, Suite 4, City, Country
